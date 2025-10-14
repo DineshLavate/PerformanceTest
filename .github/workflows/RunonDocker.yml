@@ -38,7 +38,7 @@ jobs:
       # Step 3: Download and set up JMeter
       # We use a community-maintained action to simplify JMeter setup
       - name: Setup Apache JMeter
-        uses: chromium/jmeter-action@v1.0.0 # Use a stable version
+        uses: QAInsights/PerfAction@v5.6.2 # Use a stable version
         
       # Step 4: Create the directory for results
       - name: Create Results Directory
