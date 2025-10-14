@@ -1,63 +1,41 @@
 name: JMeter Performance Test Execution
 
-# Controls when the workflow will run.
 on:
   # Allows manual running from the GitHub Actions UI
   workflow_dispatch:
-  # Optional: Runs on every push to the main branch
+  # Runs on every push to the main branch
   push:
     branches: [ main ]
-  # Optional: Runs every day at 01:00 AM UTC
+  # Runs every day at 01:00 AM UTC
   schedule:
     - cron: '0 1 * * *'
 
-# Defines a single job named 'load_test_run'
 jobs:
   load_test_run:
-    # Use the latest Ubuntu runner
     runs-on: ubuntu-latest
     
-    # Define environment variables for the test configuration
-    # These are easily overridable in a more complex setup
     env:
       JMX_FILE: patanjali_SamplePlan.jmx
       RESULTS_DIR: jmeter-results
       
     steps:
-      # Step 1: Checkout the code
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Set up Java environment (JMeter requires Java)
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-
-      # Step 3: Download and set up JMeter
-      # We use a community-maintained action to simplify JMeter setup
-      - name: Setup Apache JMeter
-        uses: QAInsights/PerfAction@v5.6.2 # Use a stable version
-        
-      # Step 4: Create the directory for results
+      # Step 2: Create results directory
       - name: Create Results Directory
         run: mkdir -p ${{ env.RESULTS_DIR }}
 
-      # Step 5: Execute the JMeter test in non-GUI mode
-      # -n: Non-GUI mode
-      # -t: Test file location
-      # -l: Listener/results file (.jtl) location
-      # -e: Generate dashboard report
-      # -o: Output directory for the dashboard
-      - name: Run JMeter Load Test
-        run: |
-          jmeter -n -t ${{ env.JMX_FILE }} \
-          -l ${{ env.RESULTS_DIR }}/results.jtl \
-          -e -o ${{ env.RESULTS_DIR }}/dashboard
-        
-      # Step 6: Upload the generated results and HTML report as an artifact
-      # This is critical for post-test analysis (LoadMaster's role)
+      # Step 3: Run JMeter performance test using PerfAction
+      - name: Run JMeter Test
+        uses: QAInsights/PerfAction@v5.6.3
+        with:
+          test-plan-path: ${{ env.JMX_FILE }}
+          results-file: ${{ env.RESULTS_DIR }}/result.jtl
+          args: "-n -t ${{ env.JMX_FILE }} -l ${{ env.RESULTS_DIR }}/result.jtl -e -o ${{ env.RESULTS_DIR }}/html-report"
+
+      # Step 4: Upload test results and HTML report as artifacts
       - name: Upload Test Results Artifact
         uses: actions/upload-artifact@v4
         with:
