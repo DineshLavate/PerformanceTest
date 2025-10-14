@@ -32,13 +32,11 @@ jobs:
         uses: QAInsights/PerfAction@v5.6.3
         with:
           test-plan-path: ${{ env.JMX_FILE }}
-          results-file: ${{ env.RESULTS_DIR }}/result.jtl
-          args: "-n -t ${{ env.JMX_FILE }} -l ${{ env.RESULTS_DIR }}/result.jtl -e -o ${{ env.RESULTS_DIR }}/html-report"
 
       # Step 4: Upload test results and HTML report as artifacts
       - name: Upload Test Results Artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.JMX_FILE }}-performance-report
-          path: ${{ env.RESULTS_DIR }}/
+          path: result.jtl
           retention-days: 7
