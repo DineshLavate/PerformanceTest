@@ -1,37 +1,66 @@
-name: JMeter Performance Test
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch: # Allows manual trigger
+name: JMeter Performance Test Execution
 
+# Controls when the workflow will run.
+on:
+  # Allows manual running from the GitHub Actions UI
+  workflow_dispatch:
+  # Optional: Runs on every push to the main branch
+  push:
+    branches: [ main ]
+  # Optional: Runs every day at 01:00 AM UTC
+  schedule:
+    - cron: '0 1 * * *'
+
+# Defines a single job named 'load_test_run'
 jobs:
-  performance_test:
-    name: Run JMeter Load Test
+  load_test_run:
+    # Use the latest Ubuntu runner
     runs-on: ubuntu-latest
     
+    # Define environment variables for the test configuration
+    # These are easily overridable in a more complex setup
+    env:
+      JMX_FILE: patanjali_SamplePlan.jmx
+      RESULTS_DIR: jmeter-results
+      
     steps:
+      # Step 1: Checkout the code
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Create Results Directory
-        run: mkdir -p results
-
-      - name: Run JMeter Test with Docker 🚀
-        # We use a public Docker image that has JMeter installed.
-        # This is the most reliable way to run it without manual installation.
-        uses: docker://justb4/jmeter:5.6.3 # Replace tag with desired JMeter version
+      # Step 2: Set up Java environment (JMeter requires Java)
+      - name: Set up Java
+        uses: actions/setup-java@v4
         with:
-          args: >
-            -n 
-            -t patanjali_SamplePlan.jmx 
-            -l results/test-results.jtl 
-            -e 
-            -o results/dashboard
+          distribution: 'temurin'
+          java-version: '17'
 
-      - name: Upload Test Results
+      # Step 3: Download and set up JMeter
+      # We use a community-maintained action to simplify JMeter setup
+      - name: Setup Apache JMeter
+        uses: chromium/jmeter-action@v1.0.0 # Use a stable version
+        
+      # Step 4: Create the directory for results
+      - name: Create Results Directory
+        run: mkdir -p ${{ env.RESULTS_DIR }}
+
+      # Step 5: Execute the JMeter test in non-GUI mode
+      # -n: Non-GUI mode
+      # -t: Test file location
+      # -l: Listener/results file (.jtl) location
+      # -e: Generate dashboard report
+      # -o: Output directory for the dashboard
+      - name: Run JMeter Load Test
+        run: |
+          jmeter -n -t ${{ env.JMX_FILE }} \
+          -l ${{ env.RESULTS_DIR }}/results.jtl \
+          -e -o ${{ env.RESULTS_DIR }}/dashboard
+        
+      # Step 6: Upload the generated results and HTML report as an artifact
+      # This is critical for post-test analysis (LoadMaster's role)
+      - name: Upload Test Results Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: jmeter-test-results
-          path: results/
+          name: ${{ env.JMX_FILE }}-performance-report
+          path: ${{ env.RESULTS_DIR }}/
           retention-days: 7
