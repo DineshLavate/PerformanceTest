@@ -1,12 +1,9 @@
 name: JMeter Performance Test Execution
 
 on:
-  # Allows manual running from the GitHub Actions UI
   workflow_dispatch:
-  # Runs on every push to the main branch
   push:
     branches: [ main ]
-  # Runs every day at 01:00 AM UTC
   schedule:
     - cron: '0 1 * * *'
 
@@ -17,6 +14,7 @@ jobs:
     env:
       JMX_FILE: patanjali_SamplePlan.jmx
       RESULTS_DIR: jmeter-results
+      TARGET_BRANCH: Dinesh
       
     steps:
       # Step 1: Checkout the repository
@@ -48,3 +46,21 @@ jobs:
           name: jmeter-html-reports
           path: reports
           if-no-files-found: error
+
+      # Step 5: Push HTML report to another branch
+      - name: Commit and Push HTML Reports to Branch Dinesh
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # Checkout the target branch (create if it doesn't exist)
+          git fetch origin ${{ env.TARGET_BRANCH }}
+          git checkout -B ${{ env.TARGET_BRANCH }}
+
+          # Copy reports into branch
+          cp -r reports/* .
+
+          # Add, commit, and push
+          git add .
+          git commit -m "Update JMeter HTML reports from workflow run"
+          git push origin ${{ env.TARGET_BRANCH }} --force
