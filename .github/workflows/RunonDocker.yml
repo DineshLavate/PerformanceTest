@@ -1,6 +1,6 @@
-permissions:  contents: write
 name: JMeter Performance Test Execution
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
   schedule:
