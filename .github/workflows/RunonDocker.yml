@@ -1,0 +1,37 @@
+name: JMeter Performance Test
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  performance_test:
+    name: Run JMeter Load Test
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create Results Directory
+        run: mkdir -p results
+
+      - name: Run JMeter Test with Docker 🚀
+        # We use a public Docker image that has JMeter installed.
+        # This is the most reliable way to run it without manual installation.
+        uses: docker://justb4/jmeter:5.6.3 # Replace tag with desired JMeter version
+        with:
+          args: >
+            -n 
+            -t patanjali_SamplePlan.jmx 
+            -l results/test-results.jtl 
+            -e 
+            -o results/dashboard
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: jmeter-test-results
+          path: results/
+          retention-days: 7
