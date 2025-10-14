@@ -12,35 +12,41 @@ jobs:
     env:
       JMX_FILE: patanjali_SamplePlan.jmx
       RESULTS_DIR: jmeter-results
-      TARGET_BRANCH: main   # Or a dedicated branch like 'Dinesh'
+      REPORTS_DIR: performance-reports
       
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true   # Use GITHUB_TOKEN
 
+      # Step 2: Create results directory
       - name: Create Results Directory
         run: mkdir -p ${{ env.RESULTS_DIR }}
 
+      # Step 3: Run JMeter Test and Generate HTML Report
       - name: Run JMeter Test
         uses: QAInsights/PerfAction@v5.6.3
         with:
           test-plan-path: ${{ env.JMX_FILE }}
           args: "-e -o reports"
 
-      - name: Store Reports in Repository
+      # Step 4: Store Reports in Repository
+      - name: Commit and Push Reports to Same Branch
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
 
-          mkdir -p performance-reports
-
-          # Remove old reports
-          rm -rf performance-reports/*
+          # Clear old reports in the repo folder
+          rm -rf ${{ env.REPORTS_DIR }}/*
+          mkdir -p ${{ env.REPORTS_DIR }}
 
           # Copy new reports
-          cp -r reports/* performance-reports/
-          cp result.jtl performance-reports/
+          cp -r reports/* ${{ env.REPORTS_DIR }}/
+          cp result.jtl ${{ env.REPORTS_DIR }}/
 
-          git add performance-reports/*
-          git commit -m "Add latest JMeter performance reports"
-          git push https://${{ secrets.GH_PAT }}@github.com/${{ github.repository }} ${{ env.TARGET_BRANCH }} --force
+          # Commit and push to the same branch
+          git add ${{ env.REPORTS_DIR }}/*
+          git commit -m "Update latest JMeter performance reports"
+          git push
