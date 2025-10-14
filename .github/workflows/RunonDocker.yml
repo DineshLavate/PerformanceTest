@@ -63,4 +63,4 @@ jobs:
           # Add, commit, and push
           git add .
           git commit -m "Update JMeter HTML reports from workflow run"
-          git push origin ${{ env.TARGET_BRANCH }} --force
+          git push origin https://${{ secrets.GH_PAT }}@github.com/DineshLavate/PerformanceTest/Dinesh --force
