@@ -1,81 +1,81 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1782109569543,2345,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-2,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1204,0,700
-1782109569504,2407,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-1,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1244,0,739
-1782109569741,2175,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-4,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1010,0,504
-1782109569645,2438,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-3,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1088,0,599
-1782109570040,2094,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-7,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,955,0,467
-1782109569842,2381,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-5,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,975,0,485
-1782109569941,2304,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-6,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,948,0,466
-1782109570139,2125,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-8,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,964,0,474
-1782109570242,2138,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-9,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,970,0,478
-1782109570337,2098,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-10,text,true,,403255,518,10,10,https://www.patanjaliayurved.net/search/aluvera,959,0,466
-1782109601920,1266,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-2,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,809,0,468
-1782109601943,1252,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-4,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,800,0,459
-1782109601939,1266,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-1,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,809,0,466
-1782109602111,1275,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-3,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,818,0,475
-1782109602161,1253,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-7,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,801,0,460
-1782109602272,1256,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-6,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,801,0,463
-1782109602250,1284,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-5,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,819,0,473
-1782109602292,1279,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-8,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,816,0,471
-1782109602407,1270,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-9,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,811,0,466
-1782109602463,1274,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-10,text,true,,100795,604,10,10,https://www.patanjaliayurved.net/checkout,812,0,469
-1782109607162,2141,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-2,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,969,0,471
-1782109607170,2345,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-4,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,971,0,463
-1782109607180,2383,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-1,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,986,0,473
-1782109607361,2344,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-3,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,966,0,463
-1782109607389,2317,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-7,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,957,0,459
-1782109607503,2339,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-6,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,960,0,467
-1782109607510,2347,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-5,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,966,0,469
-1782109607546,2377,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-8,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,979,0,472
-1782109607653,2345,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-9,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,965,0,466
-1782109607712,2372,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-10,text,true,,448587,596,10,10,https://www.patanjaliayurved.net/,977,0,471
-1782109618743,1863,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-2,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,935,0,472
-1782109618955,1823,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-4,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,916,0,461
-1782109619004,1845,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-1,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,914,0,455
-1782109619145,1863,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-3,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,929,0,466
-1782109619146,1874,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-7,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,937,0,475
-1782109619439,1601,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-9,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,916,0,462
-1782109619282,1831,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-6,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,921,0,463
-1782109619524,1604,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-10,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,919,0,463
-1782109619297,1903,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-5,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,929,0,469
-1782109619363,1879,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-8,text,true,,281953,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,944,0,476
-1782109625464,1823,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-2,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,892,0,471
-1782109625635,1802,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-4,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,888,0,463
-1782109625706,1811,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-1,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,891,0,467
-1782109625876,1774,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-7,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,870,0,457
-1782109625864,1804,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-3,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,885,0,466
-1782109625897,1789,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-9,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,875,0,462
-1782109625969,1784,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-6,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,881,0,463
-1782109625984,1823,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-10,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,891,0,471
-1782109626056,1784,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-5,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,875,0,460
-1782109626098,1812,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-8,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,886,0,469
-1782109632172,1396,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-2,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,792,0,455
-1782109632322,1438,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-4,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,812,0,469
-1782109632403,1407,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-1,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,799,0,459
-1782109632553,1403,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-3,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,799,0,458
-1782109632571,1411,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-9,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,804,0,460
-1782109632535,1453,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-7,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,824,0,475
-1782109632638,1438,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-6,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,816,0,469
-1782109632725,1412,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-5,text,true,,99042,610,10,10,https://www.patanjaliayurved.net/customer/login,801,0,461
-1782109632692,1447,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-10,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,821,0,472
-1782109632795,1414,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-8,text,true,,99043,610,10,10,https://www.patanjaliayurved.net/customer/login,802,0,461
-1782109639759,1819,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-2,text,true,,212835,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,889,0,471
-1782109569542,12653,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-2,,true,,1759303,4267,10,10,null,6490,59384,3508
-1782109639951,1796,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-4,text,true,,212835,661,9,9,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,881,0,462
-1782109569740,12631,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-4,,true,,1759303,4267,9,9,null,6278,59377,3281
-1782109640001,1771,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-1,text,true,,212835,661,8,8,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,866,0,458
-1782109569451,12890,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,1759303,4267,8,8,null,6509,59432,3517
-1782109640174,1771,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-9,text,true,,212835,661,7,7,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,869,0,457
-1782109570241,12325,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-9,,true,,1759303,4267,7,7,null,6210,59380,3251
-1782109640148,1802,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-3,text,true,,212835,661,6,6,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,889,0,470
-1782109569644,12929,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-3,,true,,1759303,4267,6,6,null,6374,59378,3397
-1782109640328,1667,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-5,text,true,,212835,661,5,5,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,886,0,468
-1782109569841,12778,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-5,,true,,1759302,4267,5,5,null,6251,59376,3285
-1782109640179,1823,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-7,text,true,,212835,661,4,4,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,891,0,472
-1782109570039,12588,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-7,,true,,1759303,4267,4,4,null,6235,59376,3265
-1782109640267,1786,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-6,text,true,,212835,661,3,3,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,877,0,461
-1782109569940,12738,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-6,,true,,1759303,4267,3,3,null,6204,59376,3252
-1782109640330,1799,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-10,text,true,,212835,661,2,2,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,885,0,463
-1782109570336,12417,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-10,,true,,1759303,4267,2,2,null,6264,59376,3275
-1782109640400,1815,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-8,text,true,,212835,661,1,1,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,890,0,468
-1782109570138,12701,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-8,,true,,1759303,4267,1,1,null,6281,59376,3291
+1782190500601,2252,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-2,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1147,0,661
+1782190500900,1984,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-5,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,909,0,442
+1782190501095,1905,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-7,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,877,0,423
+1782190500700,2306,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-3,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1073,0,573
+1782190500998,2015,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-6,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,903,0,438
+1782190500565,2455,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-1,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1181,0,697
+1782190500800,2225,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-4,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,1004,0,506
+1782190501194,2018,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-8,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,908,0,437
+1782190501293,2046,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-9,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,935,0,455
+1782190501392,2029,https://www.patanjaliayurved.net/search/aluvera,200,OK,Thread Group 1-10,text,true,,422253,518,10,10,https://www.patanjaliayurved.net/search/aluvera,927,0,450
+1782190532911,1460,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-5,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,793,0,455
+1782190533027,1352,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-7,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,739,0,418
+1782190533033,1405,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-3,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,763,0,433
+1782190533040,1403,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-6,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,762,0,435
+1782190533048,1397,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-1,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,757,0,433
+1782190533053,1415,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-4,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,774,0,449
+1782190532886,1604,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-2,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,865,0,503
+1782190533240,1404,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-8,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,763,0,434
+1782190533367,1406,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-9,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,765,0,434
+1782190533448,1407,https://www.patanjaliayurved.net/checkout,200,OK,Thread Group 1-10,text,true,,110359,604,10,10,https://www.patanjaliayurved.net/checkout,765,0,436
+1782190538354,2214,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-7,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,930,0,443
+1782190538418,2202,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-6,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,915,0,434
+1782190538347,2274,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-5,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,951,0,457
+1782190538420,2206,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-1,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,922,0,433
+1782190538443,2205,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-4,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,919,0,432
+1782190538465,2205,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-2,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,923,0,441
+1782190538413,2401,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-3,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,979,0,479
+1782190538619,2202,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-8,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,916,0,433
+1782190538749,2256,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-9,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,944,0,450
+1782190538830,2418,https://www.patanjaliayurved.net/,200,OK,Thread Group 1-10,text,true,,458650,596,10,10,https://www.patanjaliayurved.net/,1013,0,498
+1782190550060,1758,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-5,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,889,0,434
+1782190550059,1764,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-6,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,883,0,436
+1782190550065,1878,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-1,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,852,0,415
+1782190550109,1927,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-2,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,876,0,427
+1782190550087,1958,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-4,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,890,0,433
+1782190550253,1809,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-3,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,902,0,447
+1782190550007,2104,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-7,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,942,0,474
+1782190550260,2111,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-8,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,938,0,475
+1782190550687,1691,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-10,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,858,0,422
+1782190550444,2026,https://www.patanjaliayurved.net/category/paridhan/236,200,OK,Thread Group 1-9,text,true,,300925,617,10,10,https://www.patanjaliayurved.net/category/paridhan/236,914,0,458
+1782190556676,1693,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-5,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,839,0,432
+1782190556680,1694,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-6,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,839,0,433
+1782190556801,1689,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-1,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,832,0,434
+1782190556893,1705,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-2,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,844,0,437
+1782190556968,1685,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-7,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,830,0,433
+1782190556902,1840,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-4,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,904,0,479
+1782190556919,1856,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-3,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,908,0,482
+1782190557228,1690,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-8,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,835,0,433
+1782190557235,1685,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-10,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,829,0,433
+1782190557327,1689,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-9,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,834,0,435
+1782190563259,1334,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-6,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,763,0,434
+1782190563254,1440,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-5,text,true,,108601,610,10,10,https://www.patanjaliayurved.net/customer/login,817,0,470
+1782190563375,1331,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-1,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,764,0,434
+1782190563483,1278,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-2,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,736,0,416
+1782190563538,1327,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-7,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,763,0,432
+1782190563628,1306,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-4,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,751,0,425
+1782190563660,1368,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-3,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,778,0,446
+1782190563901,1282,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-9,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,743,0,422
+1782190563804,1380,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-10,text,true,,108608,610,10,10,https://www.patanjaliayurved.net/customer/login,791,0,450
+1782190563803,1453,https://www.patanjaliayurved.net/customer/login,200,OK,Thread Group 1-8,text,true,,108607,610,10,10,https://www.patanjaliayurved.net/customer/login,828,0,474
+1782190570785,1702,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-6,text,true,,222401,661,10,10,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,841,0,436
+1782190500997,12114,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-6,,true,,1845597,4267,10,10,null,5906,59376,3046
+1782190570885,1693,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-5,text,true,,222401,661,9,9,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,839,0,433
+1782190500899,12302,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-5,,true,,1845590,4267,9,9,null,6037,59378,3123
+1782190570952,1690,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-2,text,true,,222401,661,8,8,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,835,0,432
+1782190500600,12661,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-2,,true,,1845597,4267,8,8,null,6226,59381,3317
+1782190570897,1829,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-1,text,true,,222401,661,7,7,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,893,0,473
+1782190500509,12785,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,1845597,4267,7,7,null,6201,59433,3319
+1782190571056,1696,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-7,text,true,,222401,661,6,6,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,839,0,434
+1782190501094,12283,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-7,,true,,1845597,4267,6,6,null,5920,59375,3057
+1782190571126,1688,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-4,text,true,,222401,661,5,5,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,834,0,431
+1782190500799,12637,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-4,,true,,1845597,4267,5,5,null,6076,59379,3155
+1782190571219,1688,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-3,text,true,,222401,661,4,4,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,833,0,432
+1782190500699,12833,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-3,,true,,1845597,4267,4,4,null,6236,59375,3292
+1782190571374,1702,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-9,text,true,,222401,661,3,3,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,847,0,434
+1782190501291,12407,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-9,,true,,1845597,4267,3,3,null,5982,59379,3088
+1782190571375,1739,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-10,text,true,,222401,661,2,2,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,884,0,434
+1782190501391,12349,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-10,,true,,1845597,4267,2,2,null,6067,59374,3123
+1782190571447,1686,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,200,OK,Thread Group 1-8,text,true,,222401,661,1,1,https://www.patanjaliayurved.net/product/paridhan/spiritual/vignharta-kvach-paudjwkkvs1915158/3610,831,0,434
+1782190501193,12564,Test,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-8,,true,,1845596,4267,1,1,null,6019,59377,3120
